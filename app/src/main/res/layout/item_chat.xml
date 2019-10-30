@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivGambar"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:id="@+id/namaku"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@id/ivGambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAMAKU"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_below="@id/namaku"
+        android:id="@+id/bioku"
+        android:layout_marginLeft="16dp"
+        android:layout_toEndOf="@id/ivGambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aku adlaah anak gembala selalu ring serta gembira"
+        android:fontFamily="sans-serif-thin"/>
+
+
+</RelativeLayout>
